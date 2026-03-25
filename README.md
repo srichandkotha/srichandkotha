@@ -1,256 +1,217 @@
-# Hi 👋, I'm Sri Chand Kotha
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Chand Kotha - Senior Cloud & Database Platform Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter','Segoe UI',sans-serif;background:#0f172a;color:#fff;line-height:1.6;position:relative;z-index:1;overflow-x:hidden}#particles-js{position:fixed;width:100%;height:100%;background:radial-gradient(circle at center,#0f172a 0%,#020617 100%);z-index:-1}.navbar{position:fixed;top:0;width:100%;background:rgba(15,23,42,.95);backdrop-filter:blur(10px);padding:12px 0;z-index:100;border-bottom:1px solid rgba(56,189,248,.1)}.navbar .container{display:flex;justify-content:space-between;align-items:center}.logo{font-size:1.3rem;font-weight:700;background:linear-gradient(135deg,#38bdf8 0%,#06b6d4 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.nav-links{display:flex;list-style:none;gap:20px}.nav-links a{color:#e2e8f0;text-decoration:none;font-weight:500;font-size:.95rem;transition:color .3s ease;position:relative}.nav-links a:hover{color:#38bdf8}.nav-links a::after{content:'';position:absolute;bottom:-5px;left:0;width:0;height:2px;background:#38bdf8;transition:width .3s ease}.nav-links a:hover::after{width:100%}.container{width:90%;max-width:1100px;margin:0 auto;padding:0 20px}.section{padding:60px 0;text-align:center;position:relative}.section h2{font-size:2rem;margin-bottom:35px;background:linear-gradient(135deg,#38bdf8 0%,#06b6d4 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:glow 3s ease-in-out infinite}.section h3{font-size:1.2rem;color:#e2e8f0;margin-bottom:12px}.section-alt{background:linear-gradient(135deg,rgba(15,23,42,.8) 0%,rgba(2,6,23,.6) 100%);border-top:1px solid rgba(56,189,248,.1);border-bottom:1px solid rgba(56,189,248,.1)}.hero{min-height:100vh;display:flex;align-items:center;text-align:center;padding-top:60px}.hero h1{font-size:3rem;margin-bottom:15px;line-height:1.2;font-weight:800;animation:slideInUp 1s ease-out}.hero h1 span{background:linear-gradient(135deg,#38bdf8 0%,#06b6d4 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 20px rgba(56,189,248,.3))}.subtitle{font-size:1rem;margin-bottom:15px;opacity:.85;color:#cbd5e1}.btn-primary{display:inline-block;padding:10px 25px;background:linear-gradient(135deg,#38bdf8 0%,#06b6d4 100%);color:#000;text-decoration:none;font-weight:600;border-radius:25px;transition:all .3s ease;margin:5px;border:none;cursor:pointer;box-shadow:0 0 20px rgba(56,189,248,.3);font-size:.95rem}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 30px rgba(56,189,248,.5)}.btn-secondary{display:inline-block;padding:10px 25px;background:transparent;color:#38bdf8;text-decoration:none;font-weight:600;border-radius:25px;transition:all .3s ease;margin:5px;border:1px solid #38bdf8;cursor:pointer;font-size:.95rem}.btn-secondary:hover{background:rgba(56,189,248,.1);transform:translateY(-2px);box-shadow:0 0 20px rgba(56,189,248,.3)}.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:30px}.about-card{background:rgba(30,41,59,.8);padding:20px;border-radius:12px;border:1px solid rgba(56,189,248,.2);transition:all .3s ease;backdrop-filter:blur(10px)}.about-card:hover{background:rgba(30,41,59,1);border-color:rgba(56,189,248,.5);transform:translateY(-8px);box-shadow:0 0 25px rgba(56,189,248,.2)}.about-card h3{margin-bottom:10px;color:#38bdf8;font-size:1.1rem}.about-card p{color:#cbd5e1;font-size:.9rem;line-height:1.6}.skills-category{margin-bottom:45px}.skills-category h3{font-size:1.2rem;margin-bottom:20px;color:#38bdf8}.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(85px,1fr));gap:12px}.skill-item{background:rgba(30,41,59,.8);padding:15px;border-radius:10px;border:1px solid rgba(56,189,248,.2);transition:all .3s ease;display:flex;flex-direction:column;align-items:center;gap:8px;backdrop-filter:blur(10px);cursor:pointer}.skill-item:hover{background:rgba(30,41,59,1);border-color:#38bdf8;transform:translateY(-6px);box-shadow:0 0 15px rgba(56,189,248,.25)}.skill-item i{font-size:1.8rem;color:#38bdf8;transition:all .3s ease}.skill-item:hover i{transform:scale(1.15) rotate(10deg);text-shadow:0 0 12px rgba(56,189,248,.5)}.skill-item span{font-size:.8rem;font-weight:600;color:#e2e8f0;text-align:center}.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:30px}.project-card{background:rgba(30,41,59,.8);padding:25px;border-radius:12px;border:1px solid rgba(56,189,248,.2);transition:all .3s ease;backdrop-filter:blur(10px);text-align:left}.project-card:hover{background:rgba(30,41,59,1);border-color:#38bdf8;transform:translateY(-10px);box-shadow:0 0 30px rgba(56,189,248,.2)}.project-card h3{color:#38bdf8;margin-bottom:10px;font-size:1.1rem}.project-card p{color:#cbd5e1;font-size:.9rem;line-height:1.6;margin-bottom:8px}.project-card p strong{color:#38bdf8}.certs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:30px}.cert-item{background:rgba(30,41,59,.8);padding:20px;border-radius:12px;border:1px solid rgba(56,189,248,.2);transition:all .3s ease;backdrop-filter:blur(10px)}.cert-item:hover{background:rgba(30,41,59,1);border-color:#38bdf8;transform:translateY(-8px);box-shadow:0 0 25px rgba(56,189,248,.2)}.cert-item i{font-size:2rem;color:#38bdf8;margin-bottom:10px}.cert-item h4{color:#e2e8f0;margin-bottom:8px;font-size:.95rem}.cert-item p{color:#cbd5e1;font-size:.85rem}.contact-links{display:flex;justify-content:center;gap:15px;margin-top:30px;flex-wrap:wrap}.contact-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 25px;background:rgba(56,189,248,.1);color:#38bdf8;text-decoration:none;border-radius:25px;border:1px solid #38bdf8;transition:all .3s ease;font-weight:600;font-size:.95rem}.contact-btn:hover{background:rgba(56,189,248,.2);transform:translateY(-2px);box-shadow:0 0 15px rgba(56,189,248,.25)}.contact-btn i{font-size:1rem}.footer{padding:30px 0;text-align:center;background:rgba(15,23,42,.95);border-top:1px solid rgba(56,189,248,.1);font-size:.85rem;color:#94a3b8}@keyframes slideInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}@keyframes glow{0%,100%{text-shadow:0 0 15px rgba(56,189,248,.4)}50%{text-shadow:0 0 25px rgba(56,189,248,.7)}}@media (max-width:768px){.hero{padding-top:80px;min-height:auto}.hero h1{font-size:2rem}.subtitle{font-size:.9rem}.section{padding:40px 0}.section h2{font-size:1.5rem}.nav-links{gap:12px;font-size:.85rem}.skills-grid{grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:10px}.skill-item{padding:12px}.skill-item i{font-size:1.4rem}.skill-item span{font-size:.75rem}.projects-grid{grid-template-columns:1fr}.btn-primary,.btn-secondary{padding:8px 20px;font-size:.85rem}}@media (max-width:480px){.hero h1{font-size:1.5rem}.nav-links{gap:8px;font-size:.7rem}.skills-grid{grid-template-columns:repeat(3,1fr)}.logo{font-size:1.1rem}}
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Sri Chand Kotha</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-### Senior Cloud & Database Platform Engineer | AWS Architect | Infrastructure Automation Expert
+    <section id="home" class="hero section">
+        <div class="container">
+            <h1>Hi, I'm <span>Sri Chand Kotha</span></h1>
+            <p class="subtitle">Senior Cloud & Database Platform Engineer | AWS Architect</p>
+            <p class="subtitle">🚀 Cloud-Native Platforms | 💾 Data Engineering | 🔧 DevOps & Kubernetes</p>
+            <div style="margin-top:25px">
+                <a href="#about" class="btn-primary">Learn More</a>
+                <a href="https://www.linkedin.com/in/srichandk/" class="btn-secondary" target="_blank">LinkedIn</a>
+                <a href="https://github.com/srichandkotha" class="btn-secondary" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
 
-<div style="position: relative; width: 100%; max-width: 800px; margin: 2rem auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-  <svg width="100%" viewBox="0 0 800 400" style="display: block;">
-    <defs>
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-      <pattern id="honeycomb" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
-        <polygon points="15,0 45,0 60,26 45,52 15,52 0,26" fill="none" stroke="rgba(255,215,0,0.15)" stroke-width="1"/>
-      </pattern>
-      <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#fdfbf7;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#fffacd;stop-opacity:0.8" />
-        <stop offset="100%" style="stop-color:#fffbf0;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    
-    <!-- Honeycomb background -->
-    <rect width="800" height="400" fill="url(#bgGradient)"/>
-    <rect width="800" height="400" fill="url(#honeycomb)"/>
-    
-    <!-- Animated infinity network -->
-    <g id="network">
-      <circle cx="150" cy="120" r="8" fill="#FFD700" opacity="0.8" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="250" cy="100" r="6" fill="#FFA500" opacity="0.7"/>
-      <circle cx="350" cy="130" r="7" fill="#FFD700" opacity="0.8"/>
-      <circle cx="450" cy="110" r="6" fill="#FFA500" opacity="0.7"/>
-      <circle cx="550" cy="140" r="8" fill="#FFD700" opacity="0.8" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2.5s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="650" cy="120" r="7" fill="#FFD700" opacity="0.8"/>
-      
-      <circle cx="100" cy="220" r="7" fill="#FFA500" opacity="0.7"/>
-      <circle cx="200" cy="250" r="6" fill="#FFD700" opacity="0.8"/>
-      <circle cx="320" cy="280" r="8" fill="#FFD700" opacity="0.8" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="480" cy="260" r="6" fill="#FFA500" opacity="0.7"/>
-      <circle cx="600" cy="290" r="7" fill="#FFD700" opacity="0.8"/>
-      <circle cx="720" cy="240" r="6" fill="#FFA500" opacity="0.7"/>
-      
-      <circle cx="280" cy="200" r="6" fill="#FFD700" opacity="0.8"/>
-      <circle cx="400" cy="190" r="7" fill="#FFA500" opacity="0.7"/>
-      <circle cx="540" cy="220" r="8" fill="#FFD700" opacity="0.8" filter="url(#glow)">
-        <animate attributeName="r" values="8;12;8" dur="2.3s" repeatCount="indefinite"/>
-      </circle>
-      
-      <!-- Connecting lines -->
-      <line x1="150" y1="120" x2="250" y2="100" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
-      </line>
-      <line x1="250" y1="100" x2="350" y2="130" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.2s" repeatCount="indefinite"/>
-      </line>
-      <line x1="350" y1="130" x2="450" y2="110" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.1s" repeatCount="indefinite"/>
-      </line>
-      <line x1="450" y1="110" x2="550" y2="140" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.3s" repeatCount="indefinite"/>
-      </line>
-      <line x1="550" y1="140" x2="650" y2="120" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.2s" repeatCount="indefinite"/>
-      </line>
-      
-      <line x1="150" y1="120" x2="100" y2="220" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
-      </line>
-      <line x1="250" y1="100" x2="200" y2="250" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.4s" repeatCount="indefinite"/>
-      </line>
-      <line x1="100" y1="220" x2="200" y2="250" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.6s" repeatCount="indefinite"/>
-      </line>
-      <line x1="200" y1="250" x2="320" y2="280" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
-      </line>
-      <line x1="320" y1="280" x2="480" y2="260" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.7s" repeatCount="indefinite"/>
-      </line>
-      <line x1="480" y1="260" x2="600" y2="290" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.6s" repeatCount="indefinite"/>
-      </line>
-      <line x1="600" y1="290" x2="720" y2="240" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.8s" repeatCount="indefinite"/>
-      </line>
-      
-      <line x1="350" y1="130" x2="280" y2="200" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.3s" repeatCount="indefinite"/>
-      </line>
-      <line x1="280" y1="200" x2="400" y2="190" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.4s" repeatCount="indefinite"/>
-      </line>
-      <line x1="400" y1="190" x2="540" y2="220" stroke="rgba(255,165,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
-      </line>
-      <line x1="540" y1="220" x2="650" y2="120" stroke="rgba(255,215,0,0.5)" stroke-width="1.5" opacity="0.6">
-        <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3.6s" repeatCount="indefinite"/>
-      </line>
-      
-      <!-- Infinity symbol path -->
-      <path d="M 100 350 Q 250 300, 400 350 Q 550 400, 700 350" fill="none" stroke="rgba(255,215,0,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.7">
-        <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
-      </path>
-    </g>
-    
-    <!-- Animated moving dots along infinity path -->
-    <g id="movingDots">
-      <circle r="4" fill="#FF6B6B" filter="url(#glow)">
-        <animate attributeName="cx" values="100;400;700" dur="6s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="350;300;350" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="4" fill="#4ECDC4" filter="url(#glow)">
-        <animate attributeName="cx" values="700;400;100" dur="6s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="350;300;350" dur="6s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-  </svg>
-</div>
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <h2>About Me</h2>
+            <p style="max-width:700px;margin:15px auto;font-size:1rem;line-height:1.7">
+                <strong>17+ years</strong> of IT experience designing mission-critical cloud infrastructure, architecting disaster recovery strategies, and optimizing cloud costs at scale.
+            </p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>☁️ Cloud</h3>
+                    <p>5+ years architecting large-scale cloud-native platforms on AWS</p>
+                </div>
+                <div class="about-card">
+                    <h3>💾 Databases</h3>
+                    <p>Expert in SQL Server, RDS, and enterprise data engineering</p>
+                </div>
+                <div class="about-card">
+                    <h3>🚀 DevOps</h3>
+                    <p>Building resilient infrastructure with 99.9%+ uptime SLAs</p>
+                </div>
+                <div class="about-card">
+                    <h3>🔧 IaC</h3>
+                    <p>Infrastructure as Code and CI/CD pipeline modernization</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-🚀 Building Scalable Cloud-Native Platforms | 💾 Database & Data Engineering Expertise | 🔧 DevOps & Kubernetes Specialist
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            
+            <div class="skills-category">
+                <h3>Cloud & Infrastructure</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" title="Amazon Web Services"><i class="fab fa-aws"></i><span>AWS</span></div>
+                    <div class="skill-item" title="Docker"><i class="fab fa-docker"></i><span>Docker</span></div>
+                    <div class="skill-item" title="Kubernetes"><i class="fas fa-cube"></i><span>K8s</span></div>
+                    <div class="skill-item" title="Terraform"><i class="fas fa-hammer"></i><span>Terraform</span></div>
+                    <div class="skill-item" title="Linux"><i class="fab fa-linux"></i><span>Linux</span></div>
+                    <div class="skill-item" title="Azure"><i class="fab fa-microsoft"></i><span>Azure</span></div>
+                </div>
+            </div>
 
-[![](https://img.shields.io/badge/LinkedIn-SriChandK-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/srichandk/)
-[![](https://img.shields.io/badge/GitHub-srichandkotha-black?style=for-the-badge&logo=github)](https://github.com/srichandkotha)
+            <div class="skills-category">
+                <h3>CI/CD & Automation</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" title="GitHub Actions"><i class="fab fa-github"></i><span>GitHub</span></div>
+                    <div class="skill-item" title="Jenkins"><i class="fas fa-cogs"></i><span>Jenkins</span></div>
+                    <div class="skill-item" title="GitLab CI"><i class="fab fa-gitlab"></i><span>GitLab</span></div>
+                    <div class="skill-item" title="Git"><i class="fas fa-code-branch"></i><span>Git</span></div>
+                </div>
+            </div>
 
----
+            <div class="skills-category">
+                <h3>Databases</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" title="SQL Server"><i class="fas fa-database"></i><span>SQL</span></div>
+                    <div class="skill-item" title="AWS RDS"><i class="fab fa-aws"></i><span>RDS</span></div>
+                    <div class="skill-item" title="Azure SQL"><i class="fab fa-microsoft"></i><span>Azure SQL</span></div>
+                    <div class="skill-item" title="ETL/SSIS"><i class="fas fa-exchange-alt"></i><span>ETL</span></div>
+                </div>
+            </div>
 
-## 👨‍💻 About Me
+            <div class="skills-category">
+                <h3>Monitoring & Observability</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" title="Prometheus"><i class="fas fa-chart-line"></i><span>Prometheus</span></div>
+                    <div class="skill-item" title="Grafana"><i class="fas fa-chart-pie"></i><span>Grafana</span></div>
+                    <div class="skill-item" title="CloudWatch"><i class="fas fa-eye"></i><span>CloudWatch</span></div>
+                    <div class="skill-item" title="ELK Stack"><i class="fas fa-stream"></i><span>ELK</span></div>
+                </div>
+            </div>
 
-I'm **Sri Chand Kotha**, a **Senior Cloud & Database Platform Engineer** with:
+            <div class="skills-category">
+                <h3>Languages & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" title="Python"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="skill-item" title="Bash"><i class="fas fa-terminal"></i><span>Bash</span></div>
+                    <div class="skill-item" title="PowerShell"><i class="fab fa-windows"></i><span>PowerShell</span></div>
+                    <div class="skill-item" title="Vault"><i class="fas fa-key"></i><span>Vault</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-* ✅ **17+ years of IT industry experience**
-* ✅ **5+ years architecting large-scale cloud-native platforms on AWS**
-* ✅ **Deep expertise in database administration, data engineering, and infrastructure automation**
-* ✅ **Track record of building resilient, highly available systems serving millions of users**
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2>Key Achievements</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>💰 Cost Optimization</h3>
+                    <p><strong>28% AWS spend reduction</strong> ($50K/month) through rightsizing & reserved instances</p>
+                </div>
+                <div class="project-card">
+                    <h3>🏗️ Infrastructure IaC</h3>
+                    <p><strong>72h → 4-6h</strong> provisioning time with Terraform module library for 10+ teams</p>
+                </div>
+                <div class="project-card">
+                    <h3>🚀 Microservices</h3>
+                    <p><strong>50+ services migrated</strong> from ECS/EC2 to EKS with 18% response time improvement</p>
+                </div>
+                <div class="project-card">
+                    <h3>🔄 CI/CD Transform</h3>
+                    <p><strong>Monthly → Weekly</strong> deployment cadence with 70% faster build feedback</p>
+                </div>
+                <div class="project-card">
+                    <h3>⏱️ High Availability</h3>
+                    <p><strong>99.95%+ uptime</strong> serving 1.2M+ monthly active users with incident prevention</p>
+                </div>
+                <div class="project-card">
+                    <h3>⚡ DB Performance</h3>
+                    <p><strong>60% query optimization</strong> & 40% latency reduction through indexing & tuning</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-I design and operate mission-critical cloud infrastructure, architect disaster recovery strategies, optimize cloud costs at scale, and enable engineering teams to ship faster with reliable, automated CI/CD pipelines. Specialized in AWS, Kubernetes, Terraform, and modern DevOps practices across financial services, healthcare, and enterprise SaaS.
+    <section class="section">
+        <div class="container">
+            <h2>Certifications & Education</h2>
+            <div class="certs-grid">
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Microsoft Certified</h4>
+                    <p>SQL Server 2008 Installation & Maintenance</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>ISTQB Certified</h4>
+                    <p>Foundation Level Tester</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Liquibase Associate</h4>
+                    <p>Database Versioning & Change Management</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>M.C.A</h4>
+                    <p>Acharya Nagarjuna University (77.8%)</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
----
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p style="font-size:1rem;margin:20px 0">Discuss cloud infrastructure & DevOps solutions</p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/srichandk/" target="_blank" class="contact-btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/srichandkotha" target="_blank" class="contact-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:srichand.kotha@gmail.com" class="contact-btn">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </section>
 
-## 🛠️ My Core Tech Stack
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sri Chand Kotha. Building resilient cloud infrastructure | 17+ years expertise</p>
+        </div>
+    </footer>
 
-**Cloud & Infrastructure:**
-
-[![](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
-[![](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
-
-**CI/CD & Automation:**
-
-[![](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-[![](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)](https://www.jenkins.io/)
-[![](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/)
-
-**Databases & Data Engineering:**
-
-[![](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server/)
-[![](https://img.shields.io/badge/AWS%20RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white)](https://aws.amazon.com/rds/)
-[![](https://img.shields.io/badge/Azure%20SQL-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
-
-**Observability & Monitoring:**
-
-[![](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/)
-[![](https://img.shields.io/badge/Grafana-F2CC0C?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
-[![](https://img.shields.io/badge/CloudWatch-FF9900?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)](https://aws.amazon.com/cloudwatch/)
-[![](https://img.shields.io/badge/ELK%20Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)](https://www.elastic.co/)
-
-**Languages & Tools:**
-
-[![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
-
----
-
-## 🎯 What I Focus On
-
-* **Cloud Architecture & Optimization** – Designing resilient AWS infrastructure with 99.9%+ uptime, reducing cloud spend by 20-40% through rightsizing and reserved instances
-* **Infrastructure as Code (IaC)** – Building reusable Terraform modules and CloudFormation templates that accelerate infrastructure provisioning and enforce best practices
-* **Database Administration & Data Engineering** – Managing enterprise SQL Server and RDS environments, designing ETL pipelines, optimizing query performance by 30-60%
-* **CI/CD & DevOps Automation** – Modernizing deployment pipelines with GitHub Actions, GitLab CI, and Jenkins; increasing deployment frequency from monthly to daily
-* **Kubernetes & Container Orchestration** – Operating EKS clusters at scale, migrating monoliths to microservices, implementing GitOps workflows
-* **Disaster Recovery & High Availability** – Designing and testing DR strategies, reducing RTO from 6+ hours to under 90 minutes
-* **Observability & Incident Response** – Building centralized monitoring with Prometheus/Grafana and ELK; improving MTTD by 45% and MTTR by 35%
-
----
-
-## 🏆 Key Accomplishments
-
-* **Cost Optimization at Scale** – Led cloud cost optimization initiative reducing AWS spend by 28% ($50K/month) through rightsizing, reserved instances, and storage policies
-* **Infrastructure Modernization** – Created Terraform module library used by 10+ teams, reducing infrastructure provisioning time from 72 hours to 4-6 hours
-* **Microservices Migration** – Led migration of 50+ services from ECS/EC2 to EKS with automated pipelines, improving scalability and reducing response time by 18%
-* **CI/CD Transformation** – Migrated legacy Jenkins to GitHub Actions, increasing deployment cadence from monthly to weekly and reducing build feedback time by 70%
-* **Operational Excellence** – Achieved 99.95%+ uptime across mission-critical SaaS platforms serving 1.2M+ monthly active users through proactive monitoring and incident prevention
-* **Database Performance** – Optimized SQL queries and data pipelines, improving query performance by 60% and reducing data retrieval latency by 40%
-
----
-
-## 📜 Certifications
-
-* **Microsoft Certified Technology Specialist** – Microsoft SQL Server 2008, Installation and Maintenance
-* **ISTQB, ISEB Certified Tester** – Foundation Level
-* **Liquibase Certified Associate**
-
----
-
-## 🎓 Education
-
-**Acharya Nagarjuna University**
-Master of Computer Applications (M.C.A) – 77.8% | Aug 2004 - Apr 2007
-
----
-
-## 📈 Notable Projects
-
-### Infrastructure Modernization & IaC Library
-Created a reusable Terraform module registry for networking, EKS clusters, RDS instances, and CI/CD bootstrapping.
-- **Impact**: Reduced new project provisioning from 72 hours to 4-6 hours; standardized security and configuration best practices across organization
-
-### EKS Migration & Microservices Refactor
-Led migration of 50+ microservices from ECS/EC2 and legacy VMs into Kubernetes with automated Helm-based deployments.
-- **Impact**: Improved horizontal scalability, reduced operational overhead, decreased mean response time by 18% for top-tier services
-
-### CI/CD Modernization (Jenkins → GitHub Actions)
-Migrated legacy Jenkins jobs to GitHub Actions with automated testing, vulnerability scanning, and repo-level workflows.
-- **Impact**: Increased deployment cadence from monthly to weekly; build failure feedback time decreased by 70%
-
-### Cloud Cost Optimization Initiative
-Drove comprehensive AWS cost optimization: rightsizing instances, implementing reserved instances/savings plans, lifecycle policies for S3.
-- **Impact**: Reduced monthly AWS spend from $180K to $130K (28% savings)
-
-### Observability & Incident Response Platform
-Deployed Prometheus + Grafana + Alert Manager and centralized logging with ELK; created runbooks and automated alert routing via PagerDuty.
-- **Impact**: 35% reduction in critical incidents, 45% faster incident detection, 35% reduction in MTTR
-
----
-
-## 🌐 Connect With Me
-
-* 🔗 **LinkedIn**: https://www.linkedin.com/in/srichandk/
-* 🐙 **GitHub**: https://github.com/srichandkotha
-* 📧 **Email**: srichand.kotha@gmail.com
-
----
-
-> *"Building resilient, scalable cloud infrastructure that enables teams to move fast and reliably. 17+ years of IT expertise focused on cloud architecture, database engineering, and modern DevOps practices."*
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js",{particles:{number:{value:120,density:{enable:!0,value_area:800}},color:{value:"#38bdf8"},shape:{type:"circle"},opacity:{value:.5,random:!0},size:{value:3,random:!0},line_linked:{enable:!0,distance:140,color:"#38bdf8",opacity:.4,width:1},move:{enable:!0,speed:1.5,out_mode:"out"}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!0,mode:"grab"}},modes:{grab:{distance:160,line_linked:{opacity:1}}}},retina_detect:!0});
+        document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));t&&t.scrollIntoView({behavior:'smooth',block:'start'})})});
+        new IntersectionObserver((e=>{e.forEach(e=>{e.isIntersecting&&(e.target.style.animation='slideInUp 0.6s ease-out forwards',this.unobserve(e.target))})}),{threshold:.1,rootMargin:'0px 0px -100px 0px'}).observe(...document.querySelectorAll('.skill-item, .project-card, .cert-item, .about-card'));
+        window.addEventListener('scroll',()=>{const e=document.querySelector('.navbar');window.scrollY>50?(e.style.background='rgba(15,23,42,.98)',e.style.boxShadow='0 2px 15px rgba(56,189,248,.1)'):(e.style.background='rgba(15,23,42,.95)',e.style.boxShadow='none')});
+    </script>
+</body>
+</html>
