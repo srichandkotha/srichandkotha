@@ -14,7 +14,7 @@
 
 ## 💻 About Me
 
-I'm a **Full-Stack Developer & Cloud Engineer** with deep expertise in building scalable applications, architecting cloud solutions on AWS, and managing enterprise-level database migrations. I specialize in designing robust systems that prioritize performance, reliability, and cost-efficiency in cloud environments.
+I'm a **Cloud Engineer & Database Migration Specialist** with deep expertise in building scalable applications, architecting cloud solutions on AWS, and managing enterprise-level database migrations. I specialize in designing robust systems that prioritize performance, reliability, and cost-efficiency in cloud environments.
 
 - ☁️ **AWS Expertise**: EC2, RDS, S3, Lambda, DynamoDB, CloudFormation, VPC, IAM, CloudWatch, Auto Scaling, RDS Proxy
 - 🗄️ **Database Specialization**: PostgreSQL, MySQL, MongoDB, DynamoDB | Migration Strategies, Data Integrity, Performance Tuning, Backup & Recovery
